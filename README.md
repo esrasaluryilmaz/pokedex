@@ -40,4 +40,4 @@
 
 <h3>It creates an interactive discovery experience for Pokemon fans. 🎉</h3>
 
-![] (screen.gif)
+![](screen.gif)
