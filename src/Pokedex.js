@@ -5,6 +5,11 @@ import "./Pokedex.css";
 class Pokedex extends Component {
   render() {
     let title;
+    if (this.props.isWinner) {
+      title = <h2 className="Pokedex-winner">Winning Player</h2>;
+    } else {
+      title = <h2 className="Pokedex-loser">Losing Player</h2>;
+    }
     return (
       <div className="Pokedex">
         {title}
